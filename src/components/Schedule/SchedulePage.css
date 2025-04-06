@@ -1,0 +1,266 @@
+.schedule h1 {
+  font: normal 600 69.15px YapariTrial;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 66px 0px 0px 0px;
+}
+
+.schedule h2 {
+  font: normal 600 20.16px Poppins;
+  line-height: 100%;
+  color: rgba(250, 164, 26, 1);
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+  
+.roadmap{
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+  border: 2px dashed white;
+  border-radius: 40.16px;
+  padding: 40px;
+  width: 1440px;
+  margin: 33px auto;
+}
+  
+.schedule_heading{
+  font: normal 600 36px YapariTrial;
+  color: rgba(250, 164, 26, 1);
+  text-decoration: underline solid rgba(250, 164, 26, 1);
+  text-align: center;
+  margin: 0 auto;
+}
+  
+.roadmap_part-1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 1.5rem;
+  margin: 0 auto;
+}
+  
+.roadmap_part-2{ 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  margin: 0 auto;
+  margin-top: 1rem;
+}
+  
+.nextline_arrow{
+  display: flex;
+  flex-direction: column;
+}
+  
+.nextline_arrow div{
+  height: 120px;
+}
+
+.roadmap_part-3 { 
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding-top: 1.5rem;
+}
+
+.date_container {
+  display: flex;
+  flex-direction: column;
+  font-family: YapariTrial;
+}
+
+.date {
+  color: #FAA41A;
+  font-size: 39.647px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.month {
+  color: #FFF;
+  font-size: 21.509px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.schedule_details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 256px;
+  height: 120px;
+  padding: 1rem;
+  text-align: center;
+  font: normal 600 17.24px Poppins;
+  border-radius: 2rem;
+  border: 0.533px dashed #F1F1F1;
+  background: #1c1c1c;
+  box-shadow: 0px 6.281px 6.281px 0px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(167.16493225097656px);
+}
+
+.schedule_details p {
+  font-size: 12.93px;
+}
+
+.timmings {
+  display: flex;
+  height: min-content;
+  padding-block: 8px;
+  width: 144px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10.67px;
+  border-radius: 30.941px;
+  background: rgba(255, 255, 255, 0.10);
+  box-shadow: 0px 6.281px 6.281px 0px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(167.16493225097656px);
+}
+
+.schedule_arrow {
+  width: 50px; 
+}
+
+.responsive_arrow{
+  display: none;
+}
+
+@media screen and (max-width: 1100px) {
+  .schedule h1 {
+    font-size: 50px;
+    margin: 40px 0 0 0;
+  }
+
+  .schedule h2 {
+    font-size: 18px;
+  }
+
+  .roadmap {
+    padding: 20px;
+    width: 100%;
+  }
+
+  .schedule_heading {
+    font-size: 28px;
+  }
+
+  .roadmap_part-1,
+  .roadmap_part-2,
+  .roadmap_part-3 {
+    flex-direction: column;
+    gap: 15px;
+    padding-top: 1rem;
+  }
+
+  .responsive_arrow{
+    display:flex;
+  }
+
+  .nextline_arrow img{
+    display: none;
+  }
+
+  .nextline_arrow div{
+    height: 20px;
+  }
+
+  .schedule_details {
+    min-width: 200px;
+    height: auto;
+    padding: 0.8rem;
+  }
+
+  .timmings {
+    width: 120px;
+    padding-block: 6px;
+  }
+
+  .schedule_arrow-1 {
+    transform: rotate(90deg);
+    width: 30px;
+  }
+
+  .schedule_arrow-2 {
+    transform: rotate(-90deg);
+    width: 30px;
+  }
+
+  .date {
+    font-size: 32px;
+  }
+
+  .month {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .schedule h1 {
+    font-size: 36px;
+    margin: 30px 0 0 0;
+  }
+
+  .schedule h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .roadmap {
+    padding: 15px;
+    border-radius: 20px;
+  }
+
+  .schedule_heading {
+    font-size: 24px;
+  }
+
+  .roadmap_part-1, .roadmap_part-2, .roadmap_part-3 {
+    min-width: 100%;
+    gap: 10px;
+  }
+
+  .schedule_details {
+    min-width: 100%;
+    padding: 0.6rem;
+    font-size: 14px;
+  }
+
+  .schedule_details p {
+    font-size: 11px;
+  }
+
+  .timmings {
+    width: 100px;
+    font-size: 14px;
+    padding-block: 5px;
+    margin-bottom: 8px;
+  }
+
+  .schedule_arrow {
+    width: 25px;
+  }
+
+  .date {
+    font-size: 28px;
+  }
+
+  .month {
+    font-size: 16px;
+  }
+
+  .nextline_arrow img{
+    display: none;
+  }
+
+  .nextline_arrow div{
+    height: 10px;
+  }
+}
